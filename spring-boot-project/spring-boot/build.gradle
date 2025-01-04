@@ -163,6 +163,6 @@ sourceSets {
 	}
 }
 
-toolchain {
-	testJvmArgs.add("--add-opens=java.base/java.net=ALL-UNNAMED")
-}
+//toolchain {
+//	testJvmArgs.add("--add-opens=java.base/java.net=ALL-UNNAMED")
+//}
